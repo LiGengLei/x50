@@ -74,7 +74,7 @@ target_link_libraries(gui_coordinator ${Boost_LIBRARIES} ${catkin_LIBRARIES} ${Q
 #target_link_libraries(x50_controller ${XCDEV_LIBRARIES} ${catkin_LIBRARIES})
 
 
-add_executable(x50_planner src/planner.cpp src/constants.h)
+add_executable(planner src/planner.cpp src/constants.h)
 target_link_libraries(x50_planner ${catkin_LIBRARIES})
 
 #add_executable(scene_operator src/_scene_operator.cpp)
